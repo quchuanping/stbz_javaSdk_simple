@@ -37,7 +37,7 @@ meave本地私有包可将源码下载后自行打包
 
 SDK基本用法示例
 
-
+    	
         String appKey = "";     //appkey
         String appSecret = "";    //app秘钥
 
@@ -50,6 +50,5 @@ SDK基本用法示例
         paramsMap.put("limit",10);
         String result = apiClient.exec(RequestMethod.GET,"/v2/Goods/Lists",paramsMap);
         System.out.print(result);
-
       
 技术支持: quchuanping@qq.com    
