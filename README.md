@@ -45,7 +45,7 @@ SDK基本用法示例
         ApiClient apiClient = new ApiClient(appKey, appSecret);
         apiClient.setDebug(true); //设置调试模式
 
-        TreeMap<String,Object> paramsMap = new TreeMap();
+        TreeMap<String,Object> paramsMap = new TreeMap<>();
         paramsMap.put("page",1);
         paramsMap.put("limit",10);
         String result = apiClient.exec(RequestMethod.GET,"/v2/Goods/Lists",paramsMap);
