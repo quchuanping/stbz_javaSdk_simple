@@ -38,7 +38,7 @@ meave本地私有包可将源码下载后自行打包
 SDK基本用法示例
 
 
-       String appKey = "";     //appkey
+        String appKey = "";     //appkey
         String appSecret = "";    //app秘钥
 
         //获取api
