@@ -26,12 +26,6 @@ SDK需要Apache Httpclient4.5.12 和 Gson支持
 &lt;/dependency&gt;
 
 
-SDK　Jar包地址
-
-https://github.com/quchuanping/stbzJavaSDK/blob/master/out/artifacts/sdk_jar/sdk.jar
-
-请自行下载
-
 meave本地私有包可将源码下载后自行打包
 
 
